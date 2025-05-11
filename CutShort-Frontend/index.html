@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Subscription Page</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-container">
+        <div class="sidebar">
+            <div class="sidebar-cont">
+                <h1 class="sidebar-heading">ClothesInventory</h1>
+                <ul class="ul">
+                    <li class="list-items">
+                         <img src="assets/icons/home.png" alt="Home Icon" class="icon">
+                         <p class="icon-name" >Home</p>
+                    </li>
+                    <li class="list-items d">
+                         <img src="assets/icons/dashboard.png" alt="dashboard Icon" class="icon">
+                         <p class="icon-name" >Dashboard</p>
+                    </li>
+                    <li class="list-items">
+                         <img src="assets/icons/inventory.png" alt="inventory Icon" class="icon">
+                         <p class="icon-name" >Inventory</p>
+                    </li>
+                    <li class="list-items">
+                         <img src="assets/icons/reports.png" alt="reports Icon" class="icon">
+                         <p class="icon-name" >Reports</p>
+                    </li>
+                    <li class="list-items">
+                         <img src="assets/icons/about.png" alt="about Icon" class="icon">
+                         <p class="icon-name" >About</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="profile-card">
+                <img src="assets/icons/avataaars.png" alt="Alex Morgan" class="profile-pic" />
+                <div class="profile-info">
+                    <p class="name">Alex Morgan</p>
+                    <p class="role">Manager</p>
+                </div>
+            </div>
+
+        </div>
+       <div class="bg-container2">
+            <h1 class="main-heading">Your Subscription Plan</h1>
+            <p class="main-p">Pro . Active</p>
+            <button class="upgradeplan-btn" onclick="goToUpgradePlan()">Upgrade Plan</button>
+            <p class="Current-subscription-p">Current Subscription</p>
+            <div class="card">
+                <div class="icon-card">
+                    <img src="assets/icons/proplan.png" alt="proplan Icon" class="icon1" />  
+                </div>
+                <h1 class="proplan-p">Pro Plan</h1>
+                <p class="details">Start: Jan 1, 2024 . Renews: Feb 1, 2024</p>
+                <p class="details">$49/month</p>
+            </div>
+            <p class="features-h">Features in Use</p>
+            <ul class="ul2">
+                <li>Unlimited Projects</li>
+                <li>5 Team Members</li>
+                <li>API Access  </li>
+                <li>Priority Support</li>
+            </ul>
+            <p class="features-h">Usage Status</p>
+            <p class="apicalls-p">API Calls: 8,200 / 10,000 <br>Credits remaining: 1,800</p>
+           <p class="Current-subscription-p">Pricing Plans</p>
+           <div class="cards">
+                <div class="card2">
+                    <div class="icon-card">
+                         <img src="assets/icons/star.png" alt="star Icon" class="icon1" />
+                    </div>
+                    <h1 class="proplan-p">Basic</h1>
+                    <p class="details">$19/month</p>
+                    <ul class="ul2">
+                        <li>1000 Credits</li>
+                        <li>1 User</li>
+                        <li>Email Support</li>
+                        <li>2 Integrations</li>
+                    </ul>
+                    
+                    <button class="choose-btn">Choose Plan</button>
+                </div>
+                <div class="card2">
+                    <div class="icon-card">
+                         <img src="assets/icons/proplan.png" alt="proplan Icon" class="icon1" />
+                    </div>
+                    <h1 class="proplan-p">Pro</h1>
+                    <p class="details">$49/month</p>
+                    <ul class="ul2">
+                        <li>10,000 Credits</li>
+                        <li>5 Usesr</li>
+                        <li>Priority Support</li>
+                        <li>10 Integrations</li>
+                    </ul>
+                    <button class="choose-btn">Choose Plan</button>
+                </div>
+                <div class="card2">
+                    <div class="icon-card">
+                         <img src="assets/icons/unlimited.png" alt="unlimited Icon" class="icon1" />
+                    </div>
+                    <h1 class="proplan-p">Unlimited</h1>
+                    <p class="details">$99/month</p>
+                    <ul class="ul2">
+                        <li>Unlimited Credits</li>
+                        <li>Unlimited User</li>
+                        <li>24/7 Support</li>
+                        <li>All Integrations</li>
+                    </ul>
+                    <button class="choose-btn">Choose Plan</button>
+                </div>
+           </div>
+           <p class="Current-subscription-p">Subscription Stop</p>
+           <div class="card4">
+                <div class="icon-card">
+                    <img src="assets/icons/warning.png" alt="warning Icon" class="icon1" />  
+                </div>
+                <h1 class="proplan-p">Warning</h1>
+                <p class="details">Stopping your subscription will remove all credits and access.</p>
+                <button class="choose-btn">Stop Subscription</button>
+            </div>
+            <p class="Current-subscription-p">Subscription Preferences</p>
+            <p class="features-h">Payment Method</p>
+            <div class="card5">
+                <p class="card-p">Card</p>
+            </div>
+            <button class="Billing-btn">Billing History</button>
+            <button class="Billing-btn">Download Invoices</button>
+
+            <div class="container">
+                <div class="container-a">
+                        <div class="cont-c">
+
+                        </div>
+                        <div class="a">
+                            <p class="features-a ">Auto Renew <br> <span class="details-a">Automatically renew subscription</span></p>
+                           
+                        </div>
+                </div>
+                <div>
+                    <div class="toggle-visual"></div>
+
+                </div>
+            </div>
+
+             <p class="Current-subscription-p">Support</p>
+             <div class="container">
+                <div class="container-a">
+                        <div class="cont-c">
+
+                        </div>
+                        <div class="a">
+                            <p class="features-a ">Need Help? Contact Support <br> <span class="details-a">Chat or visit Help Center    </span></p>
+                           
+                        </div>
+                </div>>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
